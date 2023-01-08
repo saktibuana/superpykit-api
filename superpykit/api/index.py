@@ -9,5 +9,5 @@ def home():
 
 @app.route('/tulisantangan/<tulisan>/<warna>')
 def tulisantangan(tulisan=None, warna=None):
-
+    inlinetohandwriting(tulisan)
     return tulisan + " " + warna
