@@ -2,10 +2,10 @@ from flask import Flask
 
 app = Flask(__name__)
 
-@app.route('/')
+@app.route('/tulisantangan')
 def home():
-    return 'Hello, World!'
+    return 'Hello, Flask!'
 
-@app.route('/about')
-def about():
-    return 'About'
+@app.route('/tulisantangan')
+def tulisantangan(tulisan, warna):
+    return tulisan + " " + warna
