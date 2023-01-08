@@ -1,5 +1,5 @@
 from flask import Flask
-import inlinetohandwriting
+import sebaristulisantangan
 
 app = Flask(__name__)
 
@@ -9,5 +9,5 @@ def home():
 
 @app.route('/tulisantangan/<tulisan>/<warna>')
 def tulisantangan(tulisan=None, warna=None):
-    inlinetohandwriting(tulisan)
+    # inlinetohandwriting(tulisan)
     return tulisan + " " + warna

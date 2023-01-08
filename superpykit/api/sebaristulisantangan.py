@@ -4,6 +4,9 @@ from sys import argv
 import numpy as np
 import re #regex
 
+def jadikantulisantangan(apayangditulis=None):
+    print(apayangditulis)
+
 # List of colors
 black = (0, 0, 0)
 red = (255, 0, 0)
