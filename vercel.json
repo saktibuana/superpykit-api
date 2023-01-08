@@ -1,14 +1,14 @@
 {
   "builds": [
     {
-      "src": "tulisantangan/api/index.py",
+      "src": "superpykit/api/index.py",
       "use": "@vercel/python"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "tulisantangan/api/index.py"
+      "dest": "superpykit/api/index.py"
     }
   ]
 }
