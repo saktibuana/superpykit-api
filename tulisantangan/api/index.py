@@ -6,6 +6,6 @@ app = Flask(__name__)
 def home():
     return 'Hello, Flask!'
 
-@app.route('/tulisantangan')
-def tulisantangan(tulisan, warna):
+@app.route('/tulisantangan/<tulisan>/<warna>')
+def tulisantangan(tulisan=None, warna=None):
     return tulisan + " " + warna
