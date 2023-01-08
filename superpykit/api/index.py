@@ -7,7 +7,7 @@ app = Flask(__name__)
 def home():
     return 'Hello, Flask!'
 
-@app.route('/tulisantangan/<tulisan>/<warna>')
-def tulisantangan(tulisan=None, warna=None):
-    sebaristulisantangan.jadikantulisantangan(tulisan)
-    # return tulisan + " " + warna
+# @app.route('/tulisantangan/<tulisan>/<warna>')
+# def tulisantangan(tulisan=None, warna=None):
+#     sebaristulisantangan.jadikantulisantangan(tulisan)
+#     return tulisan + " " + warna
